@@ -23,5 +23,13 @@ final_int = sum(ip_integers)
 
 print(final_int)
 
+#Convert ip to 32 bit packed binary format
+
+import socket
+
+socket.inet_aton(myip)
+
+
+
 
 
